@@ -2,9 +2,10 @@
 ========
 A simple utility to encode a file (or any other data) into a Go byte slice.
 
+This fork is modified to support go >= 1.20
 Having [set up your Go environment](http://golang.org/doc/install), simply run
 
-    go get github.com/cratonica/2goarray
+    go install github.com/kmpm/2goarray
 
 Then use by piping a file into the utility and capturing the output. You must provide a name for the generated slice symbol and package name. For example:
 
